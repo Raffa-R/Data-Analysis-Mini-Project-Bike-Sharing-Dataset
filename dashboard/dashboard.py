@@ -101,7 +101,7 @@ def create_day_weathersit(df):
     return day_weatsit1
 
 # Load cleaned data
-day_df = pd.read_csv('./data/day.csv')
+day_df = pd.read_csv('./dashboard/day.csv')
 
 datetime_columns = "dteday"
 #all_df.sort_values(by="order_date", inplace=True)
